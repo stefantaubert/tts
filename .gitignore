@@ -130,6 +130,6 @@ dmypy.json
 
 *.debug.py
 debug.py
-configs/
+scripts/
 globals_debug.py
 playground.*
