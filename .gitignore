@@ -133,4 +133,4 @@ debug.py
 scripts/
 globals_debug.py
 playground.*
-.vscode
+.vscode/
