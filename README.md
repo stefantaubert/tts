@@ -1,0 +1,1 @@
+Tool to merge synthesis results of Tacotron and Waveglow into one folder.
