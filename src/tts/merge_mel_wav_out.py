@@ -38,5 +38,5 @@ def merge_mel_and_wav_out(base_dir: str, custom_name: Optional[str] = None, mel_
     copyfile(wav_in_json, wav_info_file)
     copytree(mel_root_dir, mel_dest_dir)
     copytree(wav_root_dir, wav_dest_dir)
-    print("Done.")
-    print(f"Output: {merge_dir}")
+    #print("Done. Output:")
+    print(f"{merge_dir}")

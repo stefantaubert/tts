@@ -1,5 +1,6 @@
 import os
 from argparse import ArgumentParser
+import sys
 
 from tts.defaults import DEFAULT_MEL_IN_JSON, DEFAULT_WAV_IN_JSON
 from tts.merge_mel_wav_out import merge_mel_and_wav_out
