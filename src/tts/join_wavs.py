@@ -1,11 +1,12 @@
-from audio_utils import wav_to_float32
-from logging import getLogger
 import os
+from logging import getLogger
 from pathlib import Path
 from typing import Generator, List, Tuple
-from audio_utils import concatenate_audios, get_sample_count, float_to_wav
-from general_utils import get_all_files_in_all_subfolders
+
 import numpy as np
+from audio_utils import (concatenate_audios, float_to_wav, get_sample_count,
+                         wav_to_float32)
+from general_utils import get_all_files_in_all_subfolders
 
 
 def get_files_sorted_recursive_with_level(directory: Path, files_before_dirs: bool, level: int) -> Generator[Tuple[Path, int], None, None]:
